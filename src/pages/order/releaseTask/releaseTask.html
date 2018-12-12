@@ -1,0 +1,119 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>发布任务</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        <ion-icon style="padding-right: 6px;color: #61aac6" name="ios-pin-outline"></ion-icon>
+        取件地址
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13">
+        中山大学新华学院11栋新华书店
+      </ion-label>
+      <ion-icon item-end  name="ios-add-circle-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.6"></ion-icon>
+    </button>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        <ion-icon style="padding-right: 6px;color: #fe9104" name="md-pin"></ion-icon>
+        配送地址
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13">
+        中山大学新华学8栋楼下超市
+      </ion-label>
+      <ion-icon item-end  name="ios-add-circle-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.6"></ion-icon>
+    </button>
+  </div>
+  
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white" (click) = "presentTypeSheet()">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        物品类型
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13">
+        神奇快递
+      </ion-label>
+      <ion-icon item-end  name="ios-arrow-forward-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.4"></ion-icon>
+    </button>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4" style="margin-top: 30px;">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white" (click) = "presetLevelSelect()">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        优先级
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13">
+        普通
+      </ion-label>
+      <ion-icon  item-end  name="ios-arrow-forward-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.4"></ion-icon>
+    </button>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        取件时间
+      </ion-label>
+      <ion-datetime class="jz-font-size-13"  cancelText="取消"  doneText="完成" displayFormat="YYYY-MM-DD HH:mm" pickerFormat="YYYY-MM-DD HH:mm"></ion-datetime>
+      <ion-icon item-end  name="ios-arrow-forward-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.4"></ion-icon>
+    </button> 
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4" style="margin-top: 30px;">
+    <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold">
+        姓名
+      </ion-label>
+      <ion-input clearInput class="jz-font-size-13" placeholder="请输入姓名"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold">
+        联系电话
+      </ion-label>
+      <ion-input clearInput class="jz-font-size-13" placeholder="请输入电话"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        备注
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13">
+       神奇备注
+      </ion-label>
+    </ion-item>
+  </div>
+
+</ion-content>
+<ion-footer style="border-top: 1px solid #FE9104">
+  <ion-toolbar>
+    <p style="padding-left: 10px;color: #8c8c8c">请核对好您的信息，确认佣金发布</p>
+    <ion-buttons end>
+      <button ion-button icon-end color="royal" style="padding-right: 10px">
+        <span style="color: #d00c0c;">10.00元</span>
+        <ion-icon name="ios-brush-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+   </ion-toolbar>
+  <button (click)="presentModeSheet()" ion-button icon-end color="fe9104" style="width: calc(100% - 20px);margin: 10px auto;display: flex;">
+    发布
+  </button>
+</ion-footer>
+<select-redio (recValue)='recDatatype($event)' [data]="type" #recValueType></select-redio>
+<select-redio (recValue)='recDatalevel($event)' [data]="level" #recValueLevel></select-redio>
+<select2-redio (recValue)='recDatamode($event)' [data]="mode" #recValueMode></select2-redio>
+
+<!--
+<page-alertRedio (recValue)='recDatatype($event)' [data]="type" #recValueType></page-alertRedio>
+<page-alertRedio (recValue)='recDatalevel($event)' [data]="level" #recValueLevel></page-alertRedio>
+<page-alertNewRedio  (recValue)='recDatamode($event)' [data]="mode" #recValueMode></page-alertNewRedio>
+ -->

@@ -1,0 +1,298 @@
+@charset "UTF-8";
+.ion-ios-jzorder-icon {
+  background-image: url("../imgs/icons8_Bill_64.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jzorder-icon-outline{
+  background-image: url("../imgs/gray_icons8_Bill_64.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jzorder-icon {
+  background-image: url("../imgs/gray_icons8_Bill_64.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tabs-md .tab-button[aria-selected=true] .ion-md-jzorder-icon {
+  background-image: url("../imgs/icons8_Bill_64.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jzreorder-icon {
+  background-image: url("../imgs/icons8_Todo_List_64.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jzreorder-icon-outline{
+  background-image: url("../imgs/Todo List_64px_gray.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jzreorder-icon {
+  background-image: url("../imgs/Todo List_64px_gray.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tabs-md .tab-button[aria-selected=true] .ion-md-jzreorder-icon {
+  background-image: url("../imgs/icons8_Todo_List_64.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jzinfo-icon {
+  background-image: url("../imgs/icons8_Guard_48.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jzinfo-icon-outline{
+  background-image: url("../imgs/gray_icons8_Guard_48.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jzinfo-icon {
+  background-image: url("../imgs/gray_icons8_Guard_48.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tabs-md .tab-button[aria-selected=true] .ion-md-jzinfo-icon {
+  background-image: url("../imgs/icons8_Guard_48.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jz-wx-icon {
+  background-image: url("../imgs/weixin.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.ion-md-jz-wx-icon {
+  background-image: url("../imgs/weixin.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.ion-ios-jz-zfb-icon {
+  background-image: url("../imgs/zfb.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.ion-md-jz-zfb-icon {
+  background-image: url("../imgs/zfb.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.ion-ios-jz-info-icon {
+  background-image: url("../imgs/info.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jz-info-icon {
+  background-image: url("../imgs/info.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jz-address-icon {
+  background-image: url("../imgs/address.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jz-address-icon {
+  background-image: url("../imgs/address.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jz-history-icon {
+  background-image: url("../imgs/history.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jz-history-icon {
+  background-image: url("../imgs/history.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jz-card-icon {
+  background-image: url("../imgs/card.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jz-card-icon {
+  background-image: url("../imgs/card.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-ios-jz-pay-icon {
+  background-image: url("../imgs/pay.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ion-md-jz-pay-icon {
+  background-image: url("../imgs/pay.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jz-info-back-img {
+  background-image: url('../imgs/logobackground.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.ion-md-jz-delete {
+  background-image: url('../imgs/delete.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  width: 25px;
+  height: 25px;
+}
+.ion-ios-jz-delete {
+  background-image: url('../imgs/delete.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  width: 25px;
+  height: 25px;
+}
+.jz-nav-button {
+  height: 100% ;max-width: 40px;min-width: 25px;background-image: url('../imgs/icons8_Add.ico');
+  background-size: 25px;background-repeat: no-repeat;background-position: center;
+}
+.jz-card {
+  margin: 10px 2px;
+}
+.jz-border-top-radius-4{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.jz-border-bottom-radius-4{
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.jz-background-f3f3f3{
+  background: #f3f3f3;
+}
+.jz-font-size-13 {
+  font-size: 13px;
+}
+.jz-font-size-15 {
+  font-size: 15px;
+}
+.jz-font-size-14 {
+  font-size: 14px;
+}
+.jz-text-align-right {
+  text-align: right;
+}
+.jz-background-fe9104 {
+  background: rgba(254,145,4 ,0.4);
+}
+.jz-background-ffeedb {
+  background:#ffeedb;
+}
+.jz-background-white {
+  background:white;
+}
+.jz-background-e0e0e0 {
+  background:#e0e0e0;
+}
+.jz-color-fe9104 {
+  color: rgba(254,145,4 ,1);
+}
+.jz-color-333333 {
+  color: #333333;
+}
+.jz-color-white {
+  color: white;
+}
+.jz-color-999999 {
+  color: #999999;
+}
+.jz-font-bold {
+  font-weight: bold;
+}
+.jz-box-shadow {
+  box-shadow: 1px 1px 20px #c9c9c9;
+}
+.jz-float-right {
+  float: right;
+}
+.jz-float-left {
+  float: left;
+}
+.jz-order-img {
+  width: 80px;
+  padding: 10px;
+  height: 80px;
+  margin: 0 auto;
+}
+.jz-padding-10 {
+  padding: 10px;
+}
+.jz-margin-top-1{
+  margin-top: 1px;
+}
+.jz-margin-10 {
+  margin: 10px 15px;
+}
+.jz-margin-25 {
+  margin: 25px;
+}
+.jz-opacity-3 {
+  opacity: 0.3;
+}
+.jz-opacity-5 {
+  opacity: 0.5;
+}
+.jz-button {
+  min-height: 3.8rem;
+  height: 3.8rem;
+}
+.jz-center{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.jz-padding-right-6 {
+  padding-right: 6px;
+}
+.jz-img-user{
+  background: white;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;padding-top: 12px;
+  border-radius: 50%
+}

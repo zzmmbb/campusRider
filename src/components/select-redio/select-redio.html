@@ -1,0 +1,15 @@
+<div class="jz-select-background" (click)="JshideBack()" [class.toggled]='isTrue'>
+  <div class="jz-select-content">
+    <button style="width: 100%;background: transparent;border-bottom: 3px solid #d1cfcf;color: #c5bbbb; font-size: 20px;">       
+       <ion-icon name="ios-arrow-down-outline"></ion-icon>
+    </button>
+    <div style="overflow-y: auto; max-height: 350px;">
+      <ion-list>
+        <ion-item style="font-size:14px;color: #333333; font-weight: bold;" (click)="clickData(item.id,item.text)" *ngFor = "let item of data; trackBy: trackByFn">
+          <ion-label (click)="clickData(item.id,item.text)">{{item?.text}}</ion-label>
+          <ion-radio (ionSelect)="clickData(item.id,item.text)" value="item.id"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+</div>

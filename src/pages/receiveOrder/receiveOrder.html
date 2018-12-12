@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>校园骑手</ion-title>
+  </ion-navbar>
+  <div class="jz-background-f3f3f3">
+    <ion-segment ngModel='待接任务'>
+        <ion-segment-button value="待接任务">
+          待接任务
+        </ion-segment-button>
+        <ion-segment-button value="已接任务">
+          已接任务
+        </ion-segment-button>
+    </ion-segment>
+    <ion-segment ngModel='时间'>
+      <div class="jzsegmet-title jz-color-333333">
+        排序 <span class="jz-float-right">|</span>  
+      </div>
+      <ion-segment-button class="jzsegment" value="时间">
+          时间
+      </ion-segment-button>
+      <ion-segment-button class="jzsegment" value="距离">
+          距离
+      </ion-segment-button>
+      <ion-segment-button class="jzsegment" value="优先级">
+          优先级
+      </ion-segment-button>
+      <ion-segment-button class="jzsegment" value="佣金">
+          佣金
+      </ion-segment-button>
+      <ion-segment-button class="jzsegment" value="状态">
+          状态
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+</ion-header>
+
+<ion-content padding> 
+    <div class="jz-card">
+        <ion-grid class="jz-border-top-radius-4 jz-background-fe9104">
+          <ion-row class="jz-font-bold jz-font-size-15">
+            <ion-col col-8 class="jz-color-333333">订单标题</ion-col>
+            <ion-col col-4 class="jz-text-align-right jz-color-fe9104 jz-margin-top-1">佣金</ion-col>
+          </ion-row>
+        </ion-grid>
+    
+        <ion-grid class="jz-border-bottom-radius-4 jz-background-f3f3f3">
+          <ion-row class="jz-color-999999">
+            <ion-col col-4>取件地址</ion-col>
+            <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+          </ion-row>
+          <ion-row class="jz-color-999999">
+            <ion-col col-4>订单目的地</ion-col>
+            <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+          </ion-row>
+          <ion-row class="jz-color-999999">
+            <ion-col col-4>时间</ion-col>
+            <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+          </ion-row>
+          <ion-row class="jz-color-999999">
+            <ion-col col-4>备注</ion-col>
+            <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+          </ion-row>
+          <ion-row class="jz-color-999999">
+            <ion-col col-12 class="jz-text-align-right">已被接单</ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+</ion-content>

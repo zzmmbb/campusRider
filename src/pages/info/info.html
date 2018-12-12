@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>校园骑手</ion-title>
+    </ion-navbar>
+</ion-header>
+  
+<ion-content>
+  <div class="jz-background-ffeedb" style="height: 200px;">
+    <div class="jz-back-img"></div>
+  </div>
+  <div style="text-align:center;  margin-top: -40px;">
+    <div class="jz-img-user"><img src="/assets/imgs/icons8_Guard_48.png"></div>
+    <div style="height: 30px;padding: 10px;" class="jz-font-bold jz-font-size-15">昵称</div>
+  </div>
+  <div class="jz-margin-10"> 
+      <button (click)="goToPage('personalInfoPage')" ion-item class="jz-button jz-border-bottom-radius-4 jz-border-top-radius-4">
+        <ion-icon name="jz-info-icon" item-start></ion-icon>
+        <span class="jz-font-bold jz-color-333333 jz-opacity-5 jz-font-size-13">个人信息</span>
+        <ion-icon class="jz-opacity-3" name="ios-arrow-forward-outline" item-end></ion-icon>
+      </button>
+  </div> 
+  <div class="jz-margin-10"> 
+      <button (click)="goToPage('addressPage')" ion-item class="jz-button jz-border-bottom-radius-4 jz-border-top-radius-4">
+        <ion-icon name="jz-address-icon" item-start></ion-icon>
+        <span class="jz-font-bold jz-color-333333 jz-opacity-5 jz-font-size-13">地址管理</span>
+        <ion-icon class="jz-opacity-3" name="ios-arrow-forward-outline" item-end></ion-icon>
+      </button>
+  </div> 
+  <div class="jz-margin-10"> 
+      <button (click)="goToPage('historyOrderPage')" ion-item class="jz-button jz-border-bottom-radius-4 jz-border-top-radius-4">
+        <ion-icon name="jz-history-icon" item-start></ion-icon>
+        <span class="jz-font-bold jz-color-333333 jz-opacity-5 jz-font-size-13">历史订单</span>
+        <ion-icon class="jz-opacity-3" name="ios-arrow-forward-outline" item-end></ion-icon>
+      </button>
+  </div> 
+  <div class="jz-margin-10"> 
+      <button ion-item class="jz-button jz-border-bottom-radius-4 jz-border-top-radius-4">
+        <ion-icon name="jz-card-icon" item-start></ion-icon>
+        <span class="jz-font-bold jz-color-333333 jz-opacity-5 jz-font-size-13">信用记录</span>
+        <ion-icon class="jz-opacity-3" name="ios-arrow-forward-outline" item-end></ion-icon>
+      </button>
+  </div> 
+  <div class="jz-margin-10"> 
+      <button ion-item class="jz-button jz-border-bottom-radius-4 jz-border-top-radius-4">
+        <ion-icon name="jz-pay-icon" item-start></ion-icon>
+        <span class="jz-font-bold jz-color-333333 jz-opacity-5 jz-font-size-13">待支付订单</span>
+        <ion-icon class="jz-opacity-3" name="ios-arrow-forward-outline" item-end></ion-icon>
+      </button>
+  </div> 
+</ion-content>

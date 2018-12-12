@@ -1,0 +1,48 @@
+<ion-header style="text-align: right">
+  <button style="max-width: 40px;max-height: 40px;" clear ion-button icon-only (click)="closeLogin()">
+    <ion-icon name="md-close" style="color:#333333;font-size: 35px;"></ion-icon>
+  </button>
+</ion-header>
+<ion-content padding>
+  <img src="assets/imgs/login_logo.png" width="140px" style="display: flex;margin: 30px auto"> <!-- 暂时无图片 需要时在替换 -->
+
+  <div style="max-width: 300px;margin: 0 auto;padding: 0">
+    <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4" style="margin-top: 30px;">
+      <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-fe9104">
+        <ion-label jzfixed class="jz-font-size-14 jz-font-bold">
+          <ion-icon class="jz-padding-right-6 jz-color-white" name="ios-tablet-portrait-outline"></ion-icon>
+        </ion-label>
+        <ion-input clearInput class="jz-font-size-13" placeholder="请输入账号"></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+      <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-fe9104">
+        <ion-label jzfixed class="jz-font-size-14 jz-font-bold">
+          <ion-icon class="jz-padding-right-6 jz-color-white" name="ios-lock-outline"></ion-icon>
+        </ion-label>
+        <ion-input clearInput  type="password" class="jz-font-size-13" placeholder="请输入账号"></ion-input>
+      </ion-item>
+    </div>
+
+    <div style="margin-top:30px;">
+      <button ion-button color="fe9104" class="jz-float-left" style="width:45%;">登录</button>
+      <button (click)="RegistPage()" ion-button color="fe9104" class="jz-float-right" style="width:45%;">注册</button>
+    </div>
+
+    <div style="bottom: 40px;position: absolute;width: 300px;">
+      <span style="float: left;text-decoration: none;padding: 5px 10px;">  
+        <button clear ion-button icon-only>
+            <ion-checkbox [(ngModel)]="b"></ion-checkbox>
+            <span class="jz-color-333333">&nbsp;记住我？</span>
+        </button>
+      </span>
+      <span style="float: right;padding: 5px 10px;">
+        <button (click)="ForgetPassword()" clear ion-button icon-only  style="float: right">
+             <span  class="jz-color-333333" style="text-decoration: underline;">忘记密码</span>
+        </button>
+      </span>
+    </div>
+  </div>
+
+</ion-content>

@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>校园骑手</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only class="jz-color-fe9104" (click)="goToReleaseTaskPage()">
+        <span style="font-size: 13px;padding-right: 3px;">发布任务</span>
+        <ion-icon class="jz-nav-button"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div class="jz-card" (click)="goToDetailPage()">
+    <ion-grid class="jz-border-top-radius-4 jz-background-fe9104">
+      <ion-row class="jz-font-bold jz-font-size-15">
+        <ion-col col-8 class="jz-color-333333">这是个神奇快递</ion-col>
+        <ion-col col-4 class="jz-text-align-right jz-color-fe9104 jz-margin-top-1">18.5</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="jz-border-bottom-radius-4 jz-background-f3f3f3">
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>取件地址</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">广东省广州市沿江东西路7号中山大学新华学院3栋北514</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>订单目的地</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">广东省广州市沿江东西路7号中山大学新华学院3栋北514</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>时间</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">2018-11-28 10:55:33</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>备注</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">这是个神奇的备注</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-fe9104">
+        <ion-col col-12 class="jz-text-align-right">待接单</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="jz-card" (click)="goToDetailPage()">
+    <ion-grid class="jz-border-top-radius-4 jz-background-fe9104">
+      <ion-row class="jz-font-bold jz-font-size-15">
+        <ion-col col-8 class="jz-color-333333">订单标题</ion-col>
+        <ion-col col-4 class="jz-text-align-right jz-color-fe9104 jz-margin-top-1">佣金</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="jz-border-bottom-radius-4 jz-background-f3f3f3">
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>取件地址</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>订单目的地</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>时间</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>备注</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1"></ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-12 class="jz-text-align-right">已被接单</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="jz-card" (click)="goToDetailPage()">
+    <ion-grid class="jz-border-top-radius-4 jz-background-fe9104">
+      <ion-row class="jz-font-bold jz-font-size-15">
+        <ion-col col-8 class="jz-color-333333">订单标题</ion-col>
+        <ion-col col-4 class="jz-text-align-right jz-color-fe9104 jz-margin-top-1">佣金</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid class="jz-border-bottom-radius-4 jz-background-f3f3f3">
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>取件地址</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">神奇地址</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>订单目的地</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">神奇订单目的地</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>时间</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">神奇时间</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-999999">
+        <ion-col col-4>备注</ion-col>
+        <ion-col col-8 class="jz-font-size-13 jz-text-align-right jz-margin-top-1">神奇备注</ion-col>
+      </ion-row>
+      <ion-row class="jz-color-fe9104">
+        <ion-col col-12 class="jz-text-align-right">待接单</ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

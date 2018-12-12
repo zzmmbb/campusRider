@@ -1,0 +1,58 @@
+page-releaseTask {
+
+  .alert-ios .alert-wrapper {
+    border-radius: 13px;
+    overflow: hidden;
+    max-width: 500px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .scroll-content{
+    background: #f3f3f3;
+  }
+  .item-ios.item-block .item-inner {
+    border-bottom: 0;
+    padding-right: 16px;
+  }
+  .item-md.item-block .item-inner {
+    border-bottom: 0;
+  }
+  .label-ios + ion-input .text-input, .label-ios + ion-textarea .text-input, .label-ios + .input + .cloned-input {
+     margin-left: 0;
+    width: calc(100% - (16px / 2));
+  }
+  .text-input-md {
+    margin: 0;
+    width: calc(100% - 8px);
+  }
+  ion-label[jz-fixed] {
+    width: calc(100% - 109px);
+    min-width: calc(100% - 109px);
+    max-width: calc(100% - 109px);
+  }
+  .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+    color: #333333;
+  }
+
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 -1px 0 0 white;
+    box-shadow: inset 0 -1px 0 0 white;
+  }
+
+  .list-md .item-input.item-input-has-focus:last-child,
+  .list-md .item-input.input-has-focus:last-child {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 -1px 0 0 white;
+    box-shadow: inset 0 -1px 0 0 white;
+  }
+  .datetime-md {
+    padding: 0;
+  }
+  .datetime-ios {
+    padding: 0;
+  }
+}

@@ -1,0 +1,46 @@
+<ion-header style="background: white">
+    <ion-navbar>
+      <ion-title>个人信息</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="jz-info-back-img" padding>
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        用户昵称：
+      </ion-label>
+      <ion-input clearInput class="jz-font-size-13" placeholder="请输入昵称(5字符以内)"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white" (click) = "presentXbSheet()">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        性别：
+      </ion-label>
+      <ion-input disabled value="男" class="jz-font-size-13" placeholder="请选择性别"></ion-input>
+      <ion-icon item-end  name="ios-arrow-down-outline" style="font-size: 20px;padding-top: 4px;opacity: 0.4"></ion-icon>
+    </button>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+        绑定手机号：
+      </ion-label>
+      <ion-input clearInput class="jz-font-size-13" placeholder="请输入有效手机号"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="jz-card jz-box-shadow jz-border-top-radius-4 jz-border-bottom-radius-4">
+    <button ion-item class="jz-border-top-radius-4 jz-border-bottom-radius-4 jz-background-white">
+      <ion-label fixed class="jz-font-size-14 jz-font-bold jz-color-333333">
+         绑定微信号：
+      </ion-label>
+      <ion-label jz-fixed class="jz-font-size-13" style="color:#9d9d9d">
+        点击绑定
+      </ion-label>
+    </button>
+  </div>
+</ion-content>
+<select-redio (recValue)='recDataxb($event)' [data]="xb" #recValuexb></select-redio>

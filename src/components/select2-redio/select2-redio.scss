@@ -1,0 +1,93 @@
+select2-redio {
+
+    .jz-select-background {
+        z-index: 999;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(1,1,1,0);
+        transition: all 300ms;
+      }
+      .jz-select-content{
+        position: absolute;
+        background: white;
+        border-top: 1px solid #fe9104;
+        padding: 10px 10px 0 10px;
+        bottom: -400px;
+        width: 100%;
+        max-height: 60%;
+        min-height: 100px;
+        margin: 0;
+        transition: all 300ms;
+      }
+      .toggled{
+        opacity: 1;
+        visibility: hidden;
+      }
+      .item-md.item-block .item-inner {
+        border-bottom: 0;
+      }
+      .item-ios.item-block .item-inner {
+        border-bottom: 0;
+      } 
+      .radio-md .radio-inner {
+        background-color: #929190;
+      }
+      .radio-md .radio-icon {
+        border-color: #9a9690;
+      }
+      .radio-ios .radio-checked .radio-inner {
+        border-color: #fe9104;
+      }
+      .item-radio-checked.item-ios ion-label {
+        color: #fe9104;
+      }
+    
+      .button-ios {
+        height: 1.5em;
+        padding: 0.9em 1em;
+        font-weight: 400;
+      }
+      .button-md {
+        height: 1.5em;
+        padding: 0.9em 1em;
+        font-weight: 400;
+      }
+      .item-md {
+        padding-left: 0;
+      }
+      .item-ios {
+        padding-left: 0;
+      }
+      .jz-select-title {
+        width: 100%;background: transparent;color: rgba(1,1,1,0.5);font-weight: bold;text-align: left;
+      }
+      .jz-select-item {
+        display: flex;align-items: center;justify-content: center;padding: 0;
+      }
+      .jz-select-item-text {
+        width: calc(100% - 50px);float: right;line-height: 2.3em;text-overflow: ellipsis;white-space: nowrap;    color: #333333;
+      }
+      .label-md {
+        margin: 0;
+      }
+      .label-ios {
+        margin: 0;
+      }
+      .item-radio-checked.item-md ion-label {
+        color: #333333;
+      }
+      .list-ios {
+        margin: -1px 0 15px;
+      }
+      .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+        border-bottom: 0;
+      }
+      .item-md .radio-md[item-left], .item-md .radio-md[item-start] {
+        margin: 11px 20px 10px 10px;
+      }
+      ion-icon {
+        display: inline-block;
+        font-size: 2.0em;
+      }
+}

@@ -1,0 +1,133 @@
+<ion-header class="jz-background-white">
+    <ion-navbar>
+        <ion-title>订单详情</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding class="jz-background-e0e0e0">
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-white jz-cont-card">
+            <img class="jz-order-img" src="assets/imgs/waitreOrder.png">
+            <span class="jz-font-size-15 jz-font-bold">等待接单</span>
+            <span class="jz-color-999999 jz-font-size-13 jz-padding-10">剩余 00:00:00 自动取消订单</span>
+            <button ion-button icon-end color="fe9104" class="jz-button">取消订单</button>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-white jz-cont-card">
+            <img class="jz-order-img" src="assets/imgs/waitPay.png">
+            <span class="jz-font-size-15 jz-font-bold">等待支付</span>
+            <span class="jz-color-999999 jz-font-size-13 jz-padding-10">00:00:00 后自动关闭</span>
+            <button ion-button icon-end color="fe9104" class="jz-button">修改信息</button>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-white jz-cont-card">
+            <img class="jz-order-img" src="assets/imgs/cancel.png">
+            <span class="jz-font-size-15 jz-font-bold">已取消</span>
+            <span class="jz-color-999999 jz-font-size-13 jz-padding-10">谢谢您的使用</span>
+            <button ion-button icon-end color="fe9104" class="jz-button">删除记录</button>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-white jz-cont-card">
+            <img class="jz-order-img" src="assets/imgs/waitTo.png">
+            <span class="jz-font-size-15 jz-font-bold">已送达</span>
+            <span class="jz-color-999999 jz-font-size-13 jz-padding-10">感谢您的信任</span>
+            <button ion-button icon-end color="fe9104" class="jz-button">评价</button>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-white jz-cont-card">
+            <img class="jz-order-img" src="assets/imgs/waitTo.png">
+            <span class="jz-font-size-15 jz-font-bold">等待送达</span>
+            <span class="jz-color-999999 jz-font-size-13 jz-padding-10">骑手为您跑腿中</span>
+            <div>
+                <button ion-button icon-end color="fe9104" class="jz-button">联系骑手</button>
+                <button ion-button icon-end color="fe9104" class="jz-button">催单</button>
+            </div>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-f3f3f3">
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">佣金</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">22.05</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">订单标题</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">请送一双筷子</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">优先级</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">正常</ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card" id="card">
+        <!--下面为波浪线-->
+        <div style="width: 0px;position: absolute;left: 22px;" id="cont">
+            <div style="height:23px;"></div>
+            <div style="border-left: 2px dotted rgb(217, 231, 72);" id="line"></div>
+        </div>
+        <!--波浪线结束-->
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-f3f3f3">
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">
+                    <ion-icon style="padding-right: 6px;color: #61aac6" name="ios-pin-outline"></ion-icon>
+                    取件地址
+                </ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">广东省广州市海珠区某某街道某某小区某某栋</ion-col>
+            </ion-row>
+            <div style="height:40px;"></div>
+            <ion-row id="buttom">
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">
+                    <ion-icon style="padding-right: 6px;color: #fe9104" name="md-pin"></ion-icon>
+                    订单目的地
+                </ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">广东省广州市海珠区某某街道某某小区某某栋</ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-f3f3f3">
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">取件时间</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">2018-12-11 11:22 11</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">物品类型</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">快递</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">备注</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">不想被打的话，把筷子拿过来.不想被打的话，把筷子拿过来</ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+
+    <div class="jz-card">
+        <ion-grid class="jz-border-bottom-radius-4 jz-border-top-radius-4 jz-background-f3f3f3">
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">骑手姓名</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">安安</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">联系电话</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">13632145322</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4 class="jz-color-333333 jz-font-bold">职工号</ion-col>
+                <ion-col col-8 class="jz-color-999999 jz-font-size-13 jz-text-align-right jz-margin-top-1">173451</ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+
+</ion-content>
+  

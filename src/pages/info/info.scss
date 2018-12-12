@@ -1,0 +1,38 @@
+page-info {
+    .scroll-content {
+        background: #f1f1f1;
+    }
+    .item-ios.item-block .item-inner { 
+        border-bottom: none;
+        padding-right: 16px;
+    }
+    .item-md.item-block .item-inner { 
+        border-bottom: none;
+        padding-right: 10px;
+    }
+    .item-md ion-icon[item-left] + .item-inner, .item-md ion-icon[item-left] + .item-input, .item-md ion-icon[item-start] + .item-inner, .item-md ion-icon[item-start] + .item-input {
+        margin-left: 14px;
+    }
+    .item-md ion-icon[item-left], .item-md ion-icon[item-right], .item-md ion-icon[item-start], .item-md ion-icon[item-end] {
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .item-ios ion-icon[item-left], .item-ios ion-icon[item-right], .item-ios ion-icon[item-start], .item-ios ion-icon[item-end] {
+        margin-left: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .input-wrapper {
+        min-height: 3.8rem;
+        height: 3.8rem;
+    }
+    .jz-back-img {
+        background-image: url('/assets/imgs/infoBack.png');
+        height: 150px;
+        background-position: center;
+        background-size: 70%;
+        background-repeat-y: no-repeat;
+        background-repeat-x: repeat;
+    }
+}

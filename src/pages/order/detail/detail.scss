@@ -1,0 +1,23 @@
+page-detail {
+    .button-md {
+        border-radius: 5px;
+        height: 2.6rem;
+        font-weight: 300;
+        padding: 0 1.6em;
+        min-width: 100px;
+    }
+    .button-ios {
+        border-radius: 4px;
+        height: 1.8em;
+        font-size: 1.3rem;
+        padding: 0 1.4em;
+        min-width: 100px;
+        font-weight: 300;
+    }
+    .jz-button {
+        max-width: 150px;margin: 0 auto;
+    }
+    .jz-cont-card {
+        min-height: 180px;text-align: center
+    }
+}

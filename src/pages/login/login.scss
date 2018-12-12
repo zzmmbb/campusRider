@@ -1,0 +1,79 @@
+page-login {
+  .button-ios-light {
+    background-color: transparent;
+  }
+  .button-md-light {
+    background-color: transparent;
+  }
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 -1px 0 0 white;
+    box-shadow: inset 0 -1px 0 0 white;
+  }
+
+  .list-md .item-input.item-input-has-focus:last-child,
+  .list-md .item-input.input-has-focus:last-child {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 -1px 0 0 white;
+    box-shadow: inset 0 -1px 0 0 white;
+  }
+  
+  .item-ios.item-block .item-inner {
+    border-bottom: 0;
+    padding-right: 16px;
+  }
+  .item-md.item-block .item-inner {
+    border-bottom: 0;
+  }
+  .label-ios + ion-input .text-input, .label-ios + ion-textarea .text-input, .label-ios + .input + .cloned-input {
+     margin-left: 0;
+    width: calc(100% - (16px / 2));
+  }
+  .text-input-md {
+    margin: 0;
+    width: calc(100% - 8px);
+  }
+  ion-label[jz-fixed] {
+    width: calc(100% - 109px);
+    min-width: calc(100% - 109px);
+    max-width: calc(100% - 109px);
+  }
+  .label-ios {
+    margin: 0px 8px 0px 0;
+  }
+  .label-md {
+    margin: 0px 8px 0px 0;
+  }
+  ion-icon {
+    font-size: 1.8em;
+    min-width: 35px;
+  }
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.item-input-has-focus .item-inner,
+  .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 0 0 0 white;
+    box-shadow: inset 0 -0 0 0 white;
+  }
+
+  .list-md .item-input.item-input-has-focus:last-child,
+  .list-md .item-input.input-has-focus:last-child {
+    border-bottom-color: white;
+    -webkit-box-shadow: inset 0 0 0 0 white;
+    box-shadow: inset 0 0 0 0 white;
+  }
+  .button-ios {
+    height: 2.2em;
+    font-weight: 300;
+  }
+
+  .checkbox-md .checkbox-checked {
+    border-color: rgba(254,145,4 ,1);
+    background-color: rgba(254,145,4 ,1);
+  }
+  .item-block {
+    min-height:3.6rem;
+  }
+}

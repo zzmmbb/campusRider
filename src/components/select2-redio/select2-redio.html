@@ -1,0 +1,21 @@
+<div class="jz-select-background" (click)="JshideBack()" [class.toggled]='isTrue'>
+  <div class="jz-select-content" (click)="nohide()">
+    <button class="jz-select-title">       
+       {{data?.title}}
+    </button>
+    <div style="height:10px"></div>
+    <div style="overflow-y: auto; max-height: 200px;"> 
+      <ion-list>
+        <ion-item style="font-size:14px;color: #333333; font-weight: bold;" (click)="selectRedio(item.id,item.text)" *ngFor="let item of data?.data; trackBy: trackByFn">
+          <ion-label (click)="selectRedio(item.id,item.text)"> <ion-icon name="{{item.icon}}"></ion-icon> <div class="jz-select-item-text">{{item?.text}}</div></ion-label>
+          <ion-radio item-start (ionSelect)="selectRedio(item.id,item.text)" value="item.id" [checked]= "value == item.id"></ion-radio>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div style="text-align:center">
+        <button (click)="hideBack()" ion-button color="fe9104">{{data?.cancelText}}</button>
+        <button (click)="clickData()" ion-button  color="fe9104">{{data?.confirmText}}</button>
+    </div>
+    <div style="height:20px"></div>
+  </div>
+</div>
